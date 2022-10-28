@@ -1,0 +1,47 @@
+body{
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cabecalho{
+    background-image: url(img/fundo.jpeg);
+    background-repeat:repeat-x;
+    background-size: 40%;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.tamanho{
+    padding: 185px 0px 0px 0px;
+}
+a{
+    padding: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: black;
+    border-radius: 3px;
+    color: beige;
+    background-size: 20px;
+    transition-duration: 0.5s;
+}
+
+
+.conteudo{
+    padding: 0px 20px 0px 20px;
+}
+.dois{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.texto{
+    padding: 20px;
+}
